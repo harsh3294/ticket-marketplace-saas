@@ -1,3 +1,9 @@
+import EventList from "@/components/eventList";
+
 export default function Home() {
-  return <div className="">welcome to ticket r</div>;
+  return (
+    <div className="">
+      <EventList />
+    </div>
+  );
 }
